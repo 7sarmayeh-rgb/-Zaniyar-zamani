@@ -1,0 +1,1 @@
+plugins {\n    id("com.android.application") version "8.0.0" apply false\n}\n\nandroid {\n    compileSdk = 34\n}\n\ndependencies {\n    implementation("androidx.core:core-ktx:1.12.0")\n    implementation("androidx.appcompat:appcompat:1.6.2")\n    implementation("com.google.android.material:material:1.11.0")\n    testImplementation("junit:junit:4.13.2")\n}
